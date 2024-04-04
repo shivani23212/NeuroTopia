@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #FF1554;
+  height: 15vh;
+}
+
+.header-title {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 4em; 
+  margin-top: 3px;
+}
+
+.flex-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-gap: 30px;
+    margin: 10px;
+  }
+  
+  .container div {
+    margin-top: 15px;
+    background-color: blue;
+    aspect-ratio: 1;
+    height: 250px;
+    width: 550px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container div:hover {
+    transform: scale(1.2);
+  }
+
+  .container:nth-child(1) div:nth-child(1) {
+    background-color: #04BE05;
+  }
+
+  .container:nth-child(1) div:nth-child(2) {
+    background-color: #8C0FFF;
+  }
+
+  .container:nth-child(1) div:nth-child(3) {
+    background-color: #5103C4;
+  }
+
+  .container:nth-child(1) div:nth-child(4) {
+    background-color: #97F498;
+  }
