@@ -83,7 +83,7 @@ a {
     width: 75%;
     height: 75%;
     object-fit: cover;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 /* ---------------------- */
@@ -92,7 +92,7 @@ a {
   --x: 200px;
   --y: 150px;
 
-  background-image: url(./background.jpg);
+  background-image: url(./dyslexia.png);
   background-size: cover;
   width: 75%;
   height: 82vh;
