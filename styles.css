@@ -158,10 +158,25 @@ a {
   flex-direction: row;
 }
 
+figure {
+  width: 60%;
+  height: 40%;
+}
+
 .lens {
+  width: 100%;
+  height: auto;
   transition: transform 0.5s;
 }
 
 .lens:hover {
   transform: scale(1.4);
+}
+
+.select {
+  height: 20%;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 10px 5px;
+
 }
