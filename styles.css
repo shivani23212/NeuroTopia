@@ -26,7 +26,6 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-
 }
 
 .buttons {
@@ -59,11 +58,11 @@ body {
     transform: scale(1.2);
   }
 
-  .container:nth-child(1) div:nth-child(1) {
+  a:nth-child(1) div:nth-child(1) {
     background-color: #04BE05;
   }
 
-  .container:nth-child(1) div:nth-child(2) {
+  .container:nth-child(1) div:nth-child(3) {
     background-color: #8C0FFF;
   }
 

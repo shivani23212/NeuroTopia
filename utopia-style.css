@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+    overflow: hidden;
+    background-color: #FF1554;
+    height: 15vh;
+}
+
+.header-title {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 4em; 
+    margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+}
+
+button, input[type="button"] {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: orange;       
+}
+
+button:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+#utopia-img {
+    width: 90%;
+    height: 90%;
+    background-image: url('utopia-classroom.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: blueviolet;
+}
+
+#rug-btn {
+    position: absolute;
+    top: 72.5%;
+    left: 40%;
+}
+
+#light-btn {
+    position: absolute;
+    top: 32.5%;
+    left: 20%;
+}
+
+#couch-btn {
+    position: absolute;
+    top: 52.5%;
+    left: 67.5%;
+}
+
+#whiteboard-btn {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+#toys-btn {
+    position: absolute;
+    top: 32.5%;
+    left: 7.5%;
+}
+
+.fa-2xl {
+    font-size: 2.25em !important;
+    color: yellow !important;
+    margin-top: 23px !important;
+    margin-left: 5px !important;
+    cursor: pointer !important;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup */
+/* code used from the above site */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
