@@ -16,22 +16,53 @@
             <h2>Select a lens to see the classroom through...</h2>
             <div class="lenses">
                 <figure>
-                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="off()">
+                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="displayBackground('dyslexia')">
                     <figcaption>Dyslexia</figcaption>
                 </figure>
                 <figure>
-                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="off()">
-                    <figcaption>Caption 1</figcaption>
+                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="displayBackground('adhd')">
+                    <figcaption>ADHD</figcaption>
                 </figure>
                 <figure>
-                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="off()">
-                    <figcaption>Caption 1</figcaption>
+                    <img class = 'lens' alt="Magfifying Glass" src="./mag1.png" onclick="displayBackground('asd')">
+                    <figcaption>ASD</figcaption>
                 </figure>
             </div>
         </div>
       </div>
+      <div id="info-overlay">
+        <button id = "x" onclick="off_info_popup()">
+            X
+        </button>
+        <div id="info-overlay-container">
+            <h2 id="info-overlay-title">Dyslexia in the Classroom</h2>
+            <p id = "dyslexia-info">
+            Being one of the most common forms of neurodiversity in children across the UK (with 1 in 10 students being dyslexic) it is important to understand how underwhelming awareness of dyslexia within the classroom is. A recent study by Made By Dyslexia, a global dyslexia charity found just 10% of UK teachers had a ‘good understanding of dyslexic strengths’. However this is not surprising when only 4% of pupils stated that their school screens all students for dyslexia, leaving 80% of dyslexic students leaving school without a diagnosis.
+            This lack of understanding and sympathy for dyslexic pupils often leads to them abandoning the idea of succeeding in school, especially since in the UK, children with Special Educational Needs (of which dyslexia is the most common [?]) are 7 times more likely to be excluded than their neurodivergent peers. [?]
+            <br> <br>
+            According to Jacobs et al., who carried out semi-structured interviews between 14 students, reductive ideas regarding dyslexic students are widely believed, including assumptions claiming dyslexic students have hearing difficulties or are unable to grasp most concepts being taught in a class. This led to ‘Managing Feelings of Inferiority’ becoming one of the key themes identified from the interviews. This study was conducted in a university setting - only hinting at how further uninformed secondary school pupils would be. [?]
+            <br> <br>
+            As a result, many students convey they often felt ‘ashamed’, ‘dumb’ and ‘embarrassed’ due to their peers and teachers’ reactions to their neurodivergence. In some cases this led to the school preventing dyslexic pupils from going ahead with certain qualifications and instead encouraging them to take on more vocational courses. [?]
+            </p>
+
+            <p id="adhd-info">
+                Attention Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental condition which is identified through symptoms of ‘inattention, hyperactivity and impulsivity’ and affects roughly 5% of the world [1]. According to the American Medical Association in 1998, ‘ADHD is one of the best-researched disorders in medicine’ [2], yet despite this, primary-age children in the UK are less likely to achieve in literacy and numeracy and more likely to feel less happy in school [3]. This trend continued throughout secondary school as it was shown the prevalence of ADHD is likely to result in lower academic achievement compared to peers - increasing the risk of depression later on in life.
+                <br> <br>
+                A study by Powell et al. concluded that academic achievement accounted for 20.13% of the total effect of late-adolescent depressive symptoms in the UK [4]. This is likely to affect the life outcomes of these students as shown in a study conducted by Kuriyan et al, confirming that ‘the ADHD group… achieving lower levels of educational … outcomes relative to the comparison group’. This study also showed that participants with childhood ADHD were less likely to be in ‘higher status vocations’ - being more likely to take up a ‘skilled manual worker’ job than a job in the ‘professional’ category [5].
+                <br> <br>
+                These negative implications of ADHD may be partly due to the lack of Special Educational Needs training and support provided to teachers and teaching assistants. A study measuring UK teacher and TA knowledge of ADHD in the classroom showed that after training, knowledge for both was only deemed as ‘adequate’ (50-85%), which suggests more in-depth training is required compared to a general overview of all SENs [6].   
+            </p>
+
+            <p id="asd-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ratione nobis error quo quos. Mollitia error sequi non eaque minima ad illum, nisi, repellat dolorem eum blanditiis dicta dolores ex?
+            </p>
+        </div>
+      </div>
       <div class="flex-box">
-        <button class="select" onclick="on()">Select Lens</button>
+        <div class="buttons">
+            <button class="select" onclick="on()">Select Lens</button>
+            <button class="read-me" onclick="on_info_popup()">Read Me</button>
+        </div>
         <div class="peephole"></div>
       </div>
 

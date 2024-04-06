@@ -29,6 +29,11 @@ body {
 
 }
 
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
     display: grid;
     grid-template-columns: 550px 550px;
@@ -131,7 +136,38 @@ a {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.75); /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+}
+
+#info-overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; 
+  width: 75%; /* Full width (cover the whole page) */
+  height: 75%; /* Full height (cover the whole page) */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+
+#info-overlay-container h2 {
+  color: white;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+#x {
+  position: absolute;
+  background: red;
+  color: white;
+  width: 50px;
+  height: 50px;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
 }
 
 .overlay-container {
@@ -143,7 +179,7 @@ a {
   align-items: center;
 }
 
-.overlay-container h2 {
+.overlay-container h2, #info-overlay-container h2 {
   color: white;
   font-size: 3em;
   font-weight: 600;
@@ -161,6 +197,7 @@ a {
 figure {
   width: 60%;
   height: 40%;
+  cursor: pointer;
 }
 
 .lens {
@@ -173,10 +210,17 @@ figure {
   transform: scale(1.4);
 }
 
-.select {
-  height: 20%;
+.select, .read-me {
+  height: 38vh;
   margin-top: 10px;
   margin-right: 20px;
-  padding: 10px 5px;
+  padding: 10px 10px;
+  background-color: #FF1554;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+}
 
+figcaption {
+  text-align: center;
 }
