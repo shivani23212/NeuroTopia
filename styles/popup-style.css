@@ -1,0 +1,11 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    background-color: #FF1554;
+    padding: 10px 10px;
+    font-size: 2em;
+}
