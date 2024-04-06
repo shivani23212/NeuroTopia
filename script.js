@@ -23,21 +23,21 @@ window.onload = function() {
 
   function displayBackground(condition) {
     if (condition == 'dyslexia') {
-      background.style.backgroundImage="url(./dyslexia.png)";
+      background.style.backgroundImage="url(./images/dyslexia.png)";
       info_title.innerHTML = "Dyslexia in the Classroom";
       adhd_info.style.display = "none";
       asd_info.style.display = "none";
       dyslexia_info.style.display = "block";  
     }
   else if (condition == 'adhd') {
-    background.style.backgroundImage="url(./adhd.png)";
+    background.style.backgroundImage="url(./images/adhd.png)";
     info_title.innerHTML = "ADHD in the Classroom";
     adhd_info.style.display = "block";
     asd_info.style.display = "none";
     dyslexia_info.style.display = "none";  
   }
   else if (condition == 'asd') {
-    background.style.backgroundImage="url(./asd.png)";
+    background.style.backgroundImage="url(./images/asd.png)";
     info_title.innerHTML = "ASD in the Classroom";
     asd_info.style.display = "block";
     dyslexia_info.style.display = "none";  

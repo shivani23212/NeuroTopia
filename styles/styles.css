@@ -96,7 +96,7 @@ a {
   --x: 200px;
   --y: 150px;
 
-  background-image: url(./dyslexia.png);
+  background-image: url(../images/dyslexia.png);
   background-size: cover;
   width: 75%;
   height: 82vh;
@@ -115,7 +115,7 @@ a {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-  background-image: url(./dystopia-clsroom.png);
+  background-image: url(../images/dystopia-clsroom.png);
   background-size: cover;
   z-index: 1;
   -webkit-mask-repeat: no-repeat no-repeat;

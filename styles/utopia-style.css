@@ -49,7 +49,7 @@ button:hover {
 #utopia-img {
     width: 90%;
     height: 90%;
-    background-image: url('utopia-classroom.png');
+    background-image: url('../images/utopia-classroom.png');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
