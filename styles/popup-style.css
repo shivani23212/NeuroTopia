@@ -9,3 +9,7 @@ body {
     padding: 10px 10px;
     font-size: 2em;
 }
+
+.container p {
+    font-size: 0.5em;
+}

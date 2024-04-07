@@ -9,28 +9,26 @@
 </head>
 <body>
     <div class="header">
+        <a href="../index.html"> <i class="fa-solid fa-left-long fa-2xl back-btn"></i></a>
         <h1 class="header-title">Utopia!</h1>
     </div>
     <div class="container">
         <div id="utopia-img"></div>
     </div>
 
-    <input class="popup" id="rug-btn" onclick="window.open('./popup.html','mywindow','menubar=1,resizable=1,width=500,height=500')" type="button" />
-    <span id="rug-btn" class="fa-solid fa-star fa-2xl" onclick="window.open('./popup.html','mywindow','menubar=1,resizable=1,width=500,height=500')"></span>
+    <input class="popup" id="rug-btn" type="button" />
+    <span id="rug-btn" class="fa-solid fa-star fa-2xl" onclick="Popup('rug')"></span>
 
-    <input class="popup" id="light-btn" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')" type="button" />
-    <span id="light-btn" class="fa-solid fa-star fa-2xl" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')"></span>
+    <input class="popup" id="light-btn" type="button" />
+    <span id="light-btn" class="fa-solid fa-star fa-2xl" onclick="Popup('light')"></span>
    
-    <input class="popup" id="couch-btn" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')" type="button" />
-    <span id="couch-btn" class="fa-solid fa-star fa-2xl" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')"></span>
+    <input class="popup" id="whiteboard-btn" type="button" />
+    <span id="whiteboard-btn" class="fa-solid fa-star fa-2xl" onclick="Popup('technology')"></span>
    
-    <input class="popup" id="whiteboard-btn" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')" type="button" />
-    <span id="whiteboard-btn" class="fa-solid fa-star fa-2xl" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')"></span>
+    <input class="popup" id="toys-btn" type="button" />
+    <span id="toys-btn" class="fa-solid fa-star fa-2xl" onclick="Popup('toys')"></span>
    
-    <input class="popup" id="toys-btn" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')" type="button" />
-    <span id="toys-btn" class="fa-solid fa-star fa-2xl" onclick="window.open('https://google.com','mywindow','menubar=1,resizable=1,width=500,height=500')"></span>
-   
-   
-    <script src="../script.js"></script>   
+    <script src="../script.js"></script> 
+    <script src="../popup-script.js"></script>  
 </body>
 </html>
