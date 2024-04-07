@@ -58,12 +58,12 @@ body {
     transform: scale(1.2);
   }
 
-  a:nth-child(1) div:nth-child(1) {
-    background-color: #04BE05;
+  .container:nth-child(1) div{
+    background-color: #04BE05 !important;
   }
 
-  .container:nth-child(1) div:nth-child(3) {
-    background-color: #8C0FFF;
+  .container:nth-child(2) div {
+    background-color: #8C0FFF !important;
   }
 
   .container:nth-child(1) div:nth-child(3) {
