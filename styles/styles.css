@@ -215,6 +215,108 @@ figcaption {
   position: absolute;
   margin-top: 50px;
   margin-left: 100px;
-  color: black !important;
+  color: white !important;
   font-size: 4em !important;
+}
+
+.back-btn-references {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  font-size: 4em !important;
+  z-index: 10;
+}
+/* --------------------------------------------------------------------------- */
+
+.reference-container, .reference-container-disclaimer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 75%;
+  height: 75vh;
+  background-color: orange;
+  color: white;
+  border-radius: 25px;
+}
+
+.reference-container-disclaimer {
+  background-color: #FF1554;
+  color: white;
+  padding-top: 20px;
+}
+
+.reference-container-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-references {
+  margin-left: 20px;
+}
+
+.reference-title {
+  text-align: center;
+}
+
+.references-1 {
+  max-width: 60%;
+}
+
+.references-2 {
+  min-width: 30%;
+}
+
+#dystopia-dyslexia {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#dystopia-adhd {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#dystopia-asd {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#utopia-seating {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#utopia-lighting {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#utopia-tech {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+#utopia-toys {
+  display: none;
+  overflow-y: scroll;
+  max-height: 75vh;
+}
+
+.disclaimer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-bottom: 30px;
 }

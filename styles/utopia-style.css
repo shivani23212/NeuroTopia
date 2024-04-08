@@ -154,10 +154,9 @@ button:hover {
   }
 
   .back-btn {
-    position: relative;
-    float: left;
-    top: 30px;
+    position: absolute;
+    top: 27px;
     margin-left: 100px;
-    color: black !important;
+    color: white !important;
     font-size: 4em !important;
   }

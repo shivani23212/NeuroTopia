@@ -110,6 +110,44 @@ function Popup(item) {
   newButton.addEventListener('click', () => {
     myDialog.close();
   });
-
   myDialog.showModal();
+}
+
+function setReferenceToNone() {
+  document.getElementById("dystopia-dyslexia").style.display = "none";
+  document.getElementById("dystopia-adhd").style.display = "none";
+  document.getElementById("dystopia-asd").style.display = "none";
+  document.getElementById("utopia-seating").style.display = "none";
+  document.getElementById("utopia-lighting").style.display = "none";
+  document.getElementById("utopia-tech").style.display = "none";
+  document.getElementById("utopia-toys").style.display = "none";
+}
+
+function displayReferences(category) {
+  setReferenceToNone();
+  if (category == "dystopia-dyslexia") {
+    document.getElementById("dystopia-dyslexia").style.display = "block";
+  }
+  else if (category == "dystopia-adhd") {
+    document.getElementById("dystopia-adhd").style.display = "block";
+  }
+  else if (category == "dystopia-asd") {
+    document.getElementById("dystopia-asd").style.display = "block";
+  }
+  else if (category == "utopia-seating") {
+    document.getElementById("utopia-seating").style.display = "block";
+  }
+  else if (category == "utopia-lighting") {
+    document.getElementById("utopia-lighting").style.display = "block";
+  }
+  else if (category == "utopia-tech") {
+    document.getElementById("utopia-tech").style.display = "block";
+  }
+  else if (category == "utopia-toys") {
+    document.getElementById("utopia-toys").style.display = "block";
+  }
+
+
+
+
 }
